@@ -1,23 +1,24 @@
 # Pokemon Center v0.01
 
-## Описание
+## Description
 
-**/ (Домашняя страница)**
+**/ (Home Page)**
 
-На этой странице отображается приветствие для пользователей.
+This page displays a greeting for users.
 
 _**/pokemon**_
 
-На этой странице пользователи могут увидеть случайного покемона. По нажатию кнопки "Generate Random Pokemon" появляется новый случайный покемон.
+On this page, users can see a random Pokémon. By clicking the "Generate Random Pokemon" button, a new random Pokémon appears.
 
 **/login**
 
-Страница для входа в приложение. Пользователи вводят свои имя пользователя и пароль для доступа к странице профиля.
+The login page for the application. Users enter their username and password to access the profile page.
 
 **/profile**
 
-После входа на этой странице пользователи могут выбрать тип покемона и увидеть всех покемонов этого типа. Также есть пагинация для ускорения загрузки. При нажатии на карточку покемона отображается подробная информация о нем, включая изображение, высоту, вес, базовый опыт, типы и способности.
-## Технологии
+After logging in, users can choose a Pokémon type on this page and see all Pokémon of that type. Pagination is available for faster loading. By clicking on a Pokémon card, detailed information about the Pokémon is displayed, including image, height, weight, base experience, types, and abilities.
+
+## Technologies
 
 - Vue.js 3
 - Vuex
@@ -25,31 +26,31 @@ _**/pokemon**_
 - Vite
 - Firebase Hosting
 
-## Установка
+## Installation
 
-Для начала работы с проектом выполните следующие шаги:
+To get started with the project, follow these steps:
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/7SergSmith7/pokemon-center.git
     ```
 
-2. Перейдите в директорию проекта:
+2. Navigate to the project directory:
 
     ```bash
     cd pokemon_center
     ```
 
-3. Установите зависимости:
+3. Install dependencies:
 
     ```bash
     npm install
     ```
 
-## Разработка
+## Development
 
-Для запуска локального сервера разработки выполните команду:
+To start the local development server, run:
 
 ```bash
 npm run dev
